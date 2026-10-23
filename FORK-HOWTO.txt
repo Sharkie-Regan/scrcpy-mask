@@ -1,0 +1,37 @@
+HOW TO UPDATE YOUR GITHUB FORK WITH THE CODM KIT
+==================================================
+
+WHAT TO ADD / REPLACE IN YOUR FORK
+----------------------------------
+Upload these 5 files to your fork (repo root is fine, or keep
+them together in a folder like "codm-kit/"):
+
+  CODM.json                the keymap (smooth-aim + wheel version)
+  INSTALL-CODM-KEYMAP.bat  one-click installer
+  README-CODM.txt          full guide
+  START-PHONE-MIRROR.bat   scrcpy launcher (clipboard + uhid modes)
+  README-START-HERE.txt    scrcpy shortcuts guide
+
+HOW (GitHub website, no git needed)
+-----------------------------------
+  1. Open your fork on github.com
+  2. "Add file" > "Upload files"
+  3. Drag the files in > "Commit changes"
+  Done. If a file with the same name already exists, the upload
+  replaces it (that is the "update").
+
+IMPORTANT - DO NOT COMMIT THE BIG BINARIES
+------------------------------------------
+  Do NOT upload to the repo: scrcpy-mask.exe, scrcpy.exe, adb.exe,
+  the .dll files, scrcpy-server. They are huge and GitHub repos
+  are for text/source files.
+  If you want people to download the ready-to-run package, put the
+  zip on your fork's "Releases" page instead:
+  your repo > Releases > "Draft a new release" > drag the zip.
+
+NOTE
+----
+  Committing CODM.json to the fork does not auto-install it for
+  anyone - users still run INSTALL-CODM-KEYMAP.bat (or import the
+  json inside scrcpy-mask). The fork is for keeping/versioning/
+  sharing your work.

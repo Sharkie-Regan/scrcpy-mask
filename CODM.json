@@ -1,0 +1,311 @@
+{
+  "version": "0.0.1",
+  "original_size": {
+    "width": 2400,
+    "height": 1080
+  },
+  "mappings": [
+    {
+      "type": "DirectionPad",
+      "id": "6e204934",
+      "bind": {
+        "type": "Button",
+        "up": [
+          "KeyW"
+        ],
+        "down": [
+          "KeyS"
+        ],
+        "left": [
+          "KeyA"
+        ],
+        "right": [
+          "KeyD"
+        ]
+      },
+      "enable_randomization": false,
+      "initial_duration": 0,
+      "max_offset_x": 110,
+      "max_offset_y": 110,
+      "note": "Move (WASD) - Shift = sprint boost",
+      "pointer_id": 2,
+      "position": {
+        "x": 230,
+        "y": 800
+      },
+      "random_distance_max_scale": 1.1,
+      "random_distance_min_scale": 0.9,
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "jitter_offset_x": 5,
+      "jitter_offset_y": 5,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "up_boost_key": [
+        "ShiftLeft"
+      ],
+      "up_boost_scale": 2.0
+    },
+    {
+      "type": "Fps",
+      "id": "3180b203",
+      "bind": [
+        "KeyF"
+      ],
+      "note": "Toggle mouse-aim mode (press F)",
+      "pointer_id": 0,
+      "position": {
+        "x": 1200,
+        "y": 540
+      },
+      "sensitivity_x": 1.5,
+      "sensitivity_y": 1.5,
+      "max_offset_x": 0,
+      "max_offset_y": 0,
+      "touch_mode": {
+        "type": "dual",
+        "another_pointer_id": 13,
+        "strategy": "delay",
+        "interval": 20
+      },
+      "interaction": null
+    },
+    {
+      "type": "Fire",
+      "id": "80d493ac",
+      "bind": [
+        "M-Left"
+      ],
+      "note": "Shoot (left mouse, works in aim mode)",
+      "pointer_id": 10,
+      "position": {
+        "x": 2130,
+        "y": 700
+      },
+      "preserve_fps_control": true,
+      "follow_fps_motion": false,
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "sensitivity_x": 0.8,
+      "sensitivity_y": 0.8,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      }
+    },
+    {
+      "type": "SingleTap",
+      "id": "9829f90c",
+      "bind": [
+        "M-Right"
+      ],
+      "duration": 999999,
+      "note": "ADS / scope (hold)",
+      "pointer_id": 1,
+      "position": {
+        "x": 2088,
+        "y": 583
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    },
+    {
+      "type": "SingleTap",
+      "id": "708e413a",
+      "bind": [
+        "KeyR"
+      ],
+      "duration": 50,
+      "note": "Reload",
+      "pointer_id": 6,
+      "position": {
+        "x": 1920,
+        "y": 756
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    },
+    {
+      "type": "SingleTap",
+      "id": "a23df8f6",
+      "bind": [
+        "Space"
+      ],
+      "duration": 50,
+      "note": "Jump",
+      "pointer_id": 3,
+      "position": {
+        "x": 2232,
+        "y": 540
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    },
+    {
+      "type": "SingleTap",
+      "id": "a849cc4c",
+      "bind": [
+        "KeyC"
+      ],
+      "duration": 50,
+      "note": "Crouch",
+      "pointer_id": 4,
+      "position": {
+        "x": 2112,
+        "y": 842
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    },
+    {
+      "type": "SingleTap",
+      "id": "7a9ab6a6",
+      "bind": [
+        "KeyZ"
+      ],
+      "duration": 50,
+      "note": "Prone",
+      "pointer_id": 5,
+      "position": {
+        "x": 1968,
+        "y": 896
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    },
+    {
+      "type": "SingleTap",
+      "id": "be214866",
+      "bind": [
+        "KeyG"
+      ],
+      "duration": 50,
+      "note": "Lethal grenade",
+      "pointer_id": 7,
+      "position": {
+        "x": 2280,
+        "y": 378
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    },
+    {
+      "type": "SingleTap",
+      "id": "b4c6e518",
+      "bind": [
+        "KeyE"
+      ],
+      "duration": 50,
+      "note": "Tactical",
+      "pointer_id": 8,
+      "position": {
+        "x": 2280,
+        "y": 497
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    },
+    {
+      "type": "SingleTap",
+      "id": "88692a39",
+      "bind": [
+        "Digit1",
+        "ScrollUp",
+        "ScrollDown"
+      ],
+      "duration": 50,
+      "note": "Weapon switch (1 or mouse wheel)",
+      "pointer_id": 9,
+      "position": {
+        "x": 1896,
+        "y": 464
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    },
+    {
+      "type": "SingleTap",
+      "id": "bc2e3f4b",
+      "bind": [
+        "KeyQ"
+      ],
+      "duration": 50,
+      "note": "Operator skill",
+      "pointer_id": 11,
+      "position": {
+        "x": 1752,
+        "y": 421
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    },
+    {
+      "type": "SingleTap",
+      "id": "fe400637",
+      "bind": [
+        "KeyV"
+      ],
+      "duration": 50,
+      "note": "Melee",
+      "pointer_id": 12,
+      "position": {
+        "x": 1824,
+        "y": 918
+      },
+      "random_offset_x": 10,
+      "random_offset_y": 10,
+      "script_hooks": {
+        "before_script": "",
+        "after_script": ""
+      },
+      "sync": false
+    }
+  ]
+}
